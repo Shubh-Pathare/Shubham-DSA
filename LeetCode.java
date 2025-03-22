@@ -5,8 +5,6 @@ public class LeetCode {
         int[] arr = { 23, 1, 5433, 54323456, 32, 1, 34, 0 };
         System.out.println(FindEvenNumbers(arr));
     }
-    
-
     static int FindEvenNumbers(int[] nums) {
         int count = 0;
         for (int num : nums) {
